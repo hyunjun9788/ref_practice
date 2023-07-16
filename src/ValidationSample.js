@@ -1,3 +1,5 @@
+import {Component} from "react";
+import './ValidationSample.css'
 class ValidationSample extends Component {
     state = {
         password: '',
@@ -31,3 +33,5 @@ class ValidationSample extends Component {
         )
     }
 }
+
+export default ValidationSample
